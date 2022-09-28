@@ -1,24 +1,29 @@
 body {
     margin: 0;
-    background-color: lightblue;
+    background-color: white;
 }
 
 .navbar {
     width: 100%;
-    background-color: antiquewhite;
-    position: fixed;
     top: 0;
 }
 
-ul {
+ul { 
     list-style-type: none;
     display: flex;
     justify-content: end;
-    gap: 15px;
-    padding-right: 40px;
+    gap: 50px;
+    padding-right: 40%;
+    float: right;
+    margin-top: 85px;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+img {
+    margin-top: 50px;
+    margin-left: 10%;
 }
