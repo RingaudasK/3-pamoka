@@ -1,9 +1,9 @@
 body {
     margin: 0;
-    background-color: white;
+    background-color:#;
 }
 
-.navbar {
+.header {
     width: 100%;
     top: 0;
 }
@@ -13,9 +13,13 @@ ul {
     display: flex;
     justify-content: end;
     gap: 50px;
-    padding-right: 40%;
-    float: right;
+    padding-left: 20%;
+    float: left;
     margin-top: 85px;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px ;
+    font-weight: 400;
+    width: 300px;
 }
 
 a {
@@ -23,7 +27,45 @@ a {
     color: black;
 }
 
-img {
+.logo {
     margin-top: 50px;
     margin-left: 10%;
+    float: left;
+}
+button {
+    margin: 0%;
+    float: left ;
+    padding-left: ;
+}
+ol {
+    float: right;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px ;
+    font-weight: 400;
+    margin-top: 85px;
+    margin-right: 80px;
+    padding-right: 90px;
+    justify-content: end;
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    width: 100px;
+    
+}
+.content {
+    float: left;
+    margin-top: 150px;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+h1 {
+    font-size: 70px;
+    margin-bottom: 0%;
+
+}
+h2 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 25px;
+    gap: 0px;
 }
