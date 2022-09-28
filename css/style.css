@@ -1,6 +1,9 @@
 body {
     margin: 0;
     background-color:white;
+    background-image: url(https://i.ibb.co/5rbwqHx/potato.png);
+    background-repeat: no-repeat, repeat;
+    background-size: 40%;
 }
 
 .header {
@@ -32,9 +35,32 @@ a {
     margin-left: 10%;
     float: left;
 }
-button {
+.topbutton {
     margin: 0%;
-    float: left ;
+    border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-size:15px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.button {
+    margin: 0%;
+    border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	padding:16px 31px;
+	text-decoration:none;
+    box-shadow: 3px 4px 0px 3px #C9BDEA;
+
+}
+button:hover{
+    background: linear-gradient(to right,#5482d0 ,#7d5ee3);
+    background-color: #5482d0;
 }
 ol {
     float: right;
@@ -54,17 +80,35 @@ ol {
 .content {
     float: left;
     margin-top: 150px;
+    margin-left: 2px;
     font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
 h1 {
     font-size: 70px;
     margin-bottom: 0%;
-
+    font-weight: 400;
+    
 }
 h2 {
     margin-top: 0%;
     margin-bottom: 0%;
     font-size: 25px;
     gap: 0px;
+    
+}
+p {
+    color: gray;
+    margin-top: 20px;
+    display: block;
+    width: 400px;
+   
+}
+
+.robot {
+    float: left;
+}
+.difrent {
+    margin-top: 20px;
+    margin-right: 10px;
 }
