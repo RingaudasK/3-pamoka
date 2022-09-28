@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color:#;
+    background-color:white;
 }
 
 .header {
@@ -35,7 +35,6 @@ a {
 button {
     margin: 0%;
     float: left ;
-    padding-left: ;
 }
 ol {
     float: right;
